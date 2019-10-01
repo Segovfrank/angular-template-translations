@@ -1,1 +1,104 @@
-/* You can add global styles to this file, and also import other style files */
+$italicFont : Lobster, cursive;
+$defaultMargin : 16px;
+$normalFont : Roboto, sans-serif;
+$fullWidth : 100%;
+
+#wrapper{
+    width: 600px;
+    height: 800px;
+    position: absolute;
+    left: 25%;
+}
+
+#firstFilter{
+    background: black;
+    opacity: 0.5;
+    width: $fullWidth;
+    height: 320px;
+    float: left;
+    position:relative;
+}
+
+body{
+    font-family: $normalFont;
+}
+
+.white-text{
+    color:white;
+    text-align: center;
+    font-family: $italicFont;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+
+.streetTitle{
+    font-family: $italicFont;
+    letter-spacing: 4px;
+    width: $fullWidth;
+    margin-left: $defaultMargin;
+}
+
+.streetSubtitle{
+    font-family: $italicFont;
+    font-weight: 100px;
+    letter-spacing: 1px;
+    margin-left: 8px;
+
+}
+
+.streetSubtitle2{
+    margin-top: 48px;
+}
+
+.firstDescription{
+
+    background-image: url("/assets/light_warm1.jpg"), linear-gradient(0deg,rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-position: center center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    width: $fullWidth;
+    height: 350px;
+    filter: blur(20%);
+    background-blend-mode: darken;
+
+    p{
+        color: white;
+        padding: 2 * $defaultMargin;
+        text-align: center;
+        line-height: 25px;
+        font-weight: 400;
+    }
+}
+
+.second-row{
+    margin-top: 32px;
+}
+
+#firstImg{
+    width: $fullWidth;
+}
+
+#secondImg{
+    width: $fullWidth;
+    height: 160px;
+
+}
+
+.column-half p{
+    margin-left: 20px;
+}
+
+#thirdImg{
+    width: $fullWidth;
+    height: 400px;
+    object-position: center;
+    object-fit: none;
+}
+
+#margin-top-margin-bot{
+    margin-top: $defaultMargin;
+    margin-bottom: 8px;
+}
+
+

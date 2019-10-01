@@ -1,6 +1,7 @@
 {
-    "saludos.text":"Hello",
-    "parrafo":{
-        "Titulo1":"Title one"
+    "firstSection":{
+        "Title":"Light House Store",
+        "Description":"The store has been pleased with its customers for over 15 years with low prices and a wide range of products. Among hundreds of virtual online store selling fixtures, our store exists realistically.You can choose the necessary lamp using the convenient navigation in the catalog of our online store"
+
     }
 }

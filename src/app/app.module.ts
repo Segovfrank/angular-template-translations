@@ -8,11 +8,17 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ParrafoComponent } from './parrafo/parrafo.component';
+import { FirstSectionComponent } from './first-section/first-section.component';
+import { SecondSectionComponent } from './second-section/second-section.component';
+import { ThirdSectionComponent } from './third-section/third-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParrafoComponent
+    ParrafoComponent,
+    FirstSectionComponent,
+    SecondSectionComponent,
+    ThirdSectionComponent
   ],
   imports: [
     BrowserModule,
