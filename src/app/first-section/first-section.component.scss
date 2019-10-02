@@ -1,0 +1,11 @@
+$_italicFont : Lobster, cursive;
+
+@mixin white-text($italicFont){
+    color:white;
+    text-align: center;
+    font-family: $italicFont;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.header-title { @include white-text($_italicFont); }

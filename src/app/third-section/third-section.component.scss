@@ -1,0 +1,12 @@
+$_italicFont : Lobster, cursive;
+$defaultMargin : 16px;
+$fullWidth : 100%;
+
+@mixin section-3-subtitle($italicFont){
+    font-family: $italicFont;
+    letter-spacing: 4px;
+    width: $fullWidth;
+    margin-left: $defaultMargin;
+}
+
+.header-title { @include section-3-subtitle($_italicFont); }
