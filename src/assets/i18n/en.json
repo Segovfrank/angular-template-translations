@@ -3,5 +3,24 @@
         "Title":"Light House Store",
         "Description":"The store has been pleased with its customers for over 15 years with low prices and a wide range of products. Among hundreds of virtual online store selling fixtures, our store exists realistically.You can choose the necessary lamp using the convenient navigation in the catalog of our online store"
 
+    },
+
+    "secondSection":{
+        "Title1":"Light Mason Jars",
+        "Description1":"In the store you can find a wide variety of lamps and sometimes unexpected from the design point of view, lamps.",
+        "Title2": "LED Gariand",
+        "Description2": "Classic and modern ceiling wall and desk lamps, outfoor and for certain rooms, and much more.",
+        "Title3": "Rare Lanterns",
+        "Description3": "We can offer chandeliers, ceiling and wall lamps, sconces, lghts and floor lamps, childre's lamps."
+    },
+
+    "thirdSection":{
+        "Title1": "Street Lights",
+        "Description1": "Contact our manager to design your space.",
+        "Title2": "Lights Installation",
+        "Description2": "We constantly increase the assortment, we add new collections of lamps and we expand the catalog of our suppliers, at the same time we always keep the low prices for the presented lamps.",
+        "Title3": "Maintenance",
+        "Description3": "Do you dream to embody the most daring design ideas? Want to turn your house, office or institution into a real work of art? Then welcome."
     }
+
 }

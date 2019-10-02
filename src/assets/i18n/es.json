@@ -1,7 +1,26 @@
 {
-    "saludos.text":"Hola",
-    "parrafo":{
-        "Titulo1":"Titulo uno"
+    "firstSection":{
+        "Title":"Tienda de luces de casa",
+        "Description":"La tienda ha estado satisfecha con sus clientes durante más de 15 años con precios bajos y una amplia gama de productos. Entre cientos de tiendas virtuales que venden accesorios, nuestra tienda existe de manera realista. Puede elegir la lámpara necesaria mediante la navegación conveniente en el catálogo de nuestra tienda en línea"
+
+    },
+
+    "secondSection":{
+        "Title1":"Tarros de albañil ligeros",
+        "Description1":"En la tienda puedes encontrar una gran variedad de lámparas y, a veces, inesperadas desde el punto de vista del diseño, lámparas.",
+        "Title2": "LED Gariand",
+        "Description2": "Lámparas de pared y escritorio de techo clásicas y modernas, exteriores y para ciertas habitaciones, y mucho más.",
+        "Title3": "Lamparas raras",
+        "Description3": "Podemos ofrecer candelabros, lámparas de techo y pared, apliques, luces y lámparas de pie, lámparas para niños."
+    },
+
+    "thirdSection":{
+        "Title1": "Luces de la calle",
+        "Description1": "Póngase en contacto con nuestro gerente para diseñar su espacio.",
+        "Title2": "Instalacion de luces",
+        "Description2": "Aumentamos constantemente el surtido, agregamos nuevas colecciones de lámparas y ampliamos el catálogo de nuestros proveedores, al mismo tiempo que siempre mantenemos los precios bajos para las lámparas presentadas.",
+        "Title3": "Mantenimiento",
+        "Description3": "¿Sueñas con encarnar las ideas de diseño más atrevidas? ¿Quiere convertir su casa, oficina o institución en una verdadera obra de arte? Entonces bienvenido."
     }
 
 }

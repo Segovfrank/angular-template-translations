@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-third-section',
@@ -7,9 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ThirdSectionComponent implements OnInit {
 
-  constructor() { }
+  public lenguaje = 'es';
+  
+
+  constructor(private translate: TranslateService) {
+      this.translate.setDefaultLang(this.lenguaje);
+   }
 
   ngOnInit() {
+    
   }
+
+  public cambiarLenguaje(lang){
+      this.lenguaje = lang;
+      this.translate.use(lang);
+  }
+
 
 }

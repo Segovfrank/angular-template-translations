@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 
 @Component({
@@ -9,7 +9,6 @@ import {TranslateService} from '@ngx-translate/core';
 export class FirstSectionComponent implements OnInit {
 
   public lenguaje = 'es';
-
   
   constructor(private translate: TranslateService) {
       this.translate.setDefaultLang(this.lenguaje);

@@ -11,6 +11,9 @@ import { ParrafoComponent } from './parrafo/parrafo.component';
 import { FirstSectionComponent } from './first-section/first-section.component';
 import { SecondSectionComponent } from './second-section/second-section.component';
 import { ThirdSectionComponent } from './third-section/third-section.component';
+import { SecondSectionTwoComponent } from './second-section-two/second-section-two.component';
+import { SecondSectionThreeComponent } from './second-section-three/second-section-three.component';
+import { SecondSectionWrapComponent } from './second-section-wrap/second-section-wrap.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ThirdSectionComponent } from './third-section/third-section.component';
     ParrafoComponent,
     FirstSectionComponent,
     SecondSectionComponent,
-    ThirdSectionComponent
+    ThirdSectionComponent,
+    SecondSectionTwoComponent,
+    SecondSectionThreeComponent,
+    SecondSectionWrapComponent
   ],
   imports: [
     BrowserModule,
