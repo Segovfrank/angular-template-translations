@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { Router } from '@angular/router';
+import { Section } from '../models/section.model';
 
 @Component({
   selector: 'app-second-section-two',
@@ -8,21 +9,34 @@ import {TranslateService} from '@ngx-translate/core';
 })
 export class SecondSectionTwoComponent implements OnInit {
 
-  public lenguaje = 'es';
-  
+  section: Section;
+  title = 'LED Gariand';
+  description = 'Lámparas de pared y escritorio de techo clásicas y modernas, exteriores y para ciertas habitaciones, y mucho más.';
+  showForm = true;
+  showFormText = 'Show form';
 
-  constructor(private translate: TranslateService) {
-      this.translate.setDefaultLang(this.lenguaje);
-   }
+  constructor(private router: Router) {
+    this.section = new Section();
+    this.section.title = this.title;
+    this.section.description = this.description;
+  }
 
   ngOnInit() {
-    
   }
 
-  public cambiarLenguaje(lang){
-      this.lenguaje = lang;
-      this.translate.use(lang);
+  showFormData(){
+    this.showForm = !this.showForm;
+    if(!this.showForm){
+      this.showFormText = 'Hide form';
+    }else{
+      this.showFormText = 'Show form';
+    }
+    console.log("Showing form");
   }
 
+  submit(formData){
+    this.showForm = true;
+    this.showFormText = 'Show form';
+  }
 
 }

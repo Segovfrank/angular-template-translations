@@ -1,3 +1,22 @@
 <img src="assets/jars.jpg" id="secondImg">
-<h5 id="margin-top-margin-bot"><b>{{'secondSection.Title1'|translate}}</b></h5>
-<p>{{'secondSection.Description1'|translate}}</p>
+<h5 id="margin-top-margin-bot"><b>{{section.title}}</b></h5>
+<p>{{section.description}}</p>
+<button class="btn btn-primary btn-sm" (click)="showFormData()">{{showFormText}}</button>
+            <form #formulario="ngForm" [hidden]="showForm" class="formStyle card text-white bg-primary mb-3">
+              <div class="form-group card-body">
+                  <label for="title">Title</label>
+                  <input type="text" class="form-control" id="title" placeholder="Title" name="title"
+                      [(ngModel)]="section.title">
+              </div>
+      
+              <div class="form-group card-body">
+                  <label for="description">Description</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Description" name="description"
+                      [(ngModel)]="section.description">
+              </div>
+            
+              <button type="submit" value="submit" class="btn btn-success btn-sm" id="form-btn" (click)="submit(formulario.value);">
+              Enviar
+              </button>
+      
+          </form>

@@ -14,6 +14,9 @@ import { ThirdSectionComponent } from './third-section/third-section.component';
 import { SecondSectionTwoComponent } from './second-section-two/second-section-two.component';
 import { SecondSectionThreeComponent } from './second-section-three/second-section-three.component';
 import { SecondSectionWrapComponent } from './second-section-wrap/second-section-wrap.component';
+import { HomeComponent } from './home/home.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -24,12 +27,15 @@ import { SecondSectionWrapComponent } from './second-section-wrap/second-section
     ThirdSectionComponent,
     SecondSectionTwoComponent,
     SecondSectionThreeComponent,
-    SecondSectionWrapComponent
+    SecondSectionWrapComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
